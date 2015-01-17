@@ -1,0 +1,4 @@
+section#topics
+  h4 Select a Topic:
+  - for topic in site.topics
+    li: a(href="#{topic._url}")= topic.title
